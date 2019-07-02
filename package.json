@@ -1,0 +1,17 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "Sample Nodejs API for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev-server": "env $(cat .env) nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohit Khatri",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
+  }
+}
